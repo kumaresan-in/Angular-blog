@@ -9,13 +9,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" routerLink="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" routerLink="/about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" routerLink="/contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -27,6 +27,7 @@
     <!--Content-->
 
     <app-home></app-home>
+    <router-outlet></router-outlet>
     <!-- Content End -->
 
 
@@ -62,7 +63,7 @@
                     </a>
                   </li>
                 </ul>
-                <p class="copyright text-muted">Made with Kumaresan</p>
+                <p class="copyright text-muted">Made with <i class="fa fa-heart" aria-hidden="true"></i> Kumaresan</p>
               </div>
             </div>
           </div>
